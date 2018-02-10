@@ -1,0 +1,22 @@
+{
+  "version": "0.1.1",
+  "name": "Easy Emoji",
+  "manifest_version": 2,
+  "short_name": "easyemoji",
+  "permissions": ["storage", "clipboardWrite"],
+  "background": {"page": "lib/chrome/background.html"},
+  "homepage_url": "http://mybrowseraddon.com/easy-emoji.html",
+  "description": "Easily find & copy any emoji(s) from your browser toolbar popup UI",
+  "browser_action": {
+    "default_title": "Easy Emoji",
+    "default_icon": "data/icons/16.png",
+    "default_popup": "data/popup/popup.html"
+  },
+  "icons": {
+    "16": "data/icons/16.png",
+    "32": "data/icons/48.png",
+    "48": "data/icons/48.png",
+    "64": "data/icons/48.png",
+    "128": "data/icons/128.png"
+  }
+}
